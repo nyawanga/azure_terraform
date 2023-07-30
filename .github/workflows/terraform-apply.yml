@@ -9,7 +9,7 @@ env:
     TF_CLOUD_ORGANIZATION: "itisfranc"
     TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
     TF_WORKSPACE: "learn_azure_terraform_github_actions"
-    CONFIG_DIRECTORY: "infra"
+    CONFIG_DIRECTORY: "."
 
 jobs:
   terraform:
