@@ -12,27 +12,33 @@ variable "az_location" {
 
 variable "azure_subscription_id" {
   type = string
+  sensitive=true
 }
 
 variable "azure_subscription_tenant_id" {
   type = string
+    sensitive=true
 }
 
 variable "service_principal_appid" {
   type = string
+    sensitive=true
 }
 
 variable "service_principal_password" {
   type = string
+    sensitive=true
 }
 
 variable "rds_password" {
   type      = string
   sensitive = true
+    sensitive=true
 }
 
 variable "server_admin" {
   type = string
+    sensitive=true
 
 }
 variable "admin_password" {
